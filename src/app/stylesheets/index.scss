@@ -1,0 +1,18 @@
+/* you can add any styles you think could improve user's experience */
+ /*
+ Styles must be written with a preprocessor.
+ Because of lack of time, I'm writting them in plain CSS but this
+ should be changed to SASS/LESS/Stylus and bundle a plugin on
+ webpack file.
+*/
+
+* {
+  transition: 165ms ease-in all;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}

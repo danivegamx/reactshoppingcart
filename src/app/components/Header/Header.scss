@@ -1,0 +1,23 @@
+header {
+  background: rgb(26, 26, 26);
+  border-top: 3px solid rgb(170, 213, 0);
+}
+
+header figure {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+header h1 {
+  color: #888;
+  display: inline-block;
+  font-size: 1.1rem;
+  margin: 8px 0 8px 130px;
+  padding: 0;
+}
+
+header figure img {
+  width: 110px;
+}

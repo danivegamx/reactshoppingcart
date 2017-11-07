@@ -1,0 +1,106 @@
+.Product {
+    border: 1px solid #f0f0f0;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.Product-Brand {
+    color: #888;
+    font-weight: 700;
+    margin: 40px 0 10px 0;
+    text-transform: uppercase;
+}
+
+.Product-Button {
+    background: black;
+    bottom: 0;
+    color: white;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.Product-Button input {
+    background: black;
+    appearance: none;
+    color: white;
+    font-weight: 700;
+    height: 100%;
+    outline: none;
+    width: 100%;
+}
+
+.Product-Button input:hover {
+    background: rgba(255,255,255,.2);
+    cursor: pointer;
+}
+
+.Product-Description,
+.Product-Transaction {
+    padding: 0 15px;
+}
+
+.Product-Name {
+    font-size: 1.15rem;
+    margin: 0 0 50px 0;
+    text-transform: uppercase;
+}
+
+.Product figure {
+    text-align: center;
+}
+
+.Product figure img:hover {
+    transform: scale(1.2);
+}
+
+.Product-Price {
+    color: #e4022d;
+    font-size: 1.2rem;
+}
+
+.Products h1 {
+    border-bottom: 1px dotted rgb(170, 213, 0);
+    color: rgb(170, 213, 0);
+    font-weight: 300;
+}
+
+.Products-List {
+    border: 1px solid #f0f0f0;
+}
+
+.Product__onCart {
+    position: relative;
+    figure {
+        margin-bottom: 0;
+    }
+    .Product-Description {
+        .Product-Brand {
+            margin-top: 15px;
+        }
+        .Product-Name {
+            margin-bottom: 10px;
+        }
+    }
+    .Product-Transaction {
+        .Product-Price {
+            margin: 0;
+        }
+        input {
+            border: 0px solid;
+        }
+    }
+}
+
+.remove-icon {
+    border-radius: 50%;
+    background: #ddd;
+    padding: 4px 10px;
+    position: absolute;
+    right: 40px;
+    &:hover {
+        background: #ccc;
+        cursor: pointer;
+    }
+}
